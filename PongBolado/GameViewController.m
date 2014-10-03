@@ -30,6 +30,8 @@
 
 @implementation GameViewController
 
+
+//aki vamos iniciar o app, então vamos instanciar a cena de jogo
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -48,6 +50,9 @@
     // Present the scene.
     [skView presentScene:scene];
 }
+
+
+
 
 - (BOOL)shouldAutorotate
 {
